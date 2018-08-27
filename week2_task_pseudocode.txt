@@ -1,0 +1,49 @@
+1.Newton Second Law
+
+Pseudocode
+
+STORE "massa benda" with 600
+STORE "percepatan benda" with 2
+STORE "resultan gaya" with 0
+CALCULATE "massa benda" times "percepatan benda"
+SET "resultan gaya"  value with calculation result
+DISPLAY "resultan gaya"
+
+2.Tahun Kabisat
+
+Pseudocode
+
+STORE "year" with any value
+
+IF "year" mod 4 equal 0 and "year" mod 100 not equal 0 THEN
+  DISPLAY "leap year"
+ELSE IF "year" mod 4 equal 0 and "year" mod 100 equal 0 and mod 400 equal 0 THEN
+  DISPLAY "leap year"
+ELSE
+  DISPLAY "not leap year"
+END IF
+
+3.Laundry Day
+
+Pseudocode
+
+STORE "satuan baju" with 0
+
+WHILE "satuan baju" less than 20
+  ADD "satuan baju" by 1
+
+DISPLAY "nyalakan mesin cuci"
+
+4.Periksa Kuku
+
+Pseudocode
+
+STORE "siswa/siwi" with 1
+
+WHILE "siswa/siswi" less than 40
+  DISPLAY "siswa/siwi"
+  STORE "panjang kuku" with any value
+  IF "panjang kuku" greater than 4 THEN
+    DISPLAY "hukum!"
+  ELSE
+    DISPLAY "muji"
