@@ -18,6 +18,3 @@ if (peran === 'Ksatria') {
   console.log('\"Halo Tabib kyo, kamu akan membantu temanmu yang terluka\"') ;
 } else if (peran === 'Penyihir') {
   console.log('\"Halo Penyihir kyo, Ciptakan keajaiban yang membantu kemenanganmu!\"') ;
-} else {
-  console.log('\"Pilihlah salah satu peranmu!\"') ;
-}
