@@ -13,15 +13,27 @@ DISPLAY "resultan gaya"
 
 Pseudocode
 
-STORE "year" with any value
+STORE "Tahun" with any value
 
-IF "year" mod 4 equal 0 and "year" mod 100 not equal 0 THEN
-  DISPLAY "leap year"
-ELSE IF "year" mod 4 equal 0 and "year" mod 100 equal 0 and mod 400 equal 0 THEN
-  DISPLAY "leap year"
+IF "Tahun" mod 4 equal 0 and "year" mod 100 not equal 0 THEN
+  DISPLAY "Tahun Kabisat"
+ELSE IF "Tahun" mod 4 equal 0 and "Tahun" mod 100 equal 0 and mod 400 equal 0 THEN
+  DISPLAY "Tahun Kabisat"
 ELSE
-  DISPLAY "not leap year"
+  DISPLAY "bukan Tahun Kabisat"
 END IF
+
+Natural
+
+SIMPAN "tahun" dengan nilai 0
+
+JIKA "tahun" modulus 4 sama dengan 0 dan "tahun" modulus 100 tidak sama dengan 0 MAKA
+  TAMPILKAN "tahun Kabisat"
+LAIN JIKA "tahun" modulus 4 sama dengan 0 dan "tahun" modulus 100 sama dengan 0 dan modulus 400 sama degan 0 MAKA
+  TAMPILKAN "tahun Kabisat"
+LAIN
+  TAMPILKAN "bukan tahun Kabisat"
+AKHIR JIKA
 
 3.Laundry Day
 
@@ -40,10 +52,20 @@ Pseudocode
 
 STORE "siswa/siwi" with 1
 
-WHILE "siswa/siswi" less than 40
-  DISPLAY "siswa/siwi"
+WHILE "siswa/siswi" less than 40 THEN
+  DISPLAY "siswa/siswi"
   STORE "panjang kuku" with any value
   IF "panjang kuku" greater than 4 THEN
     DISPLAY "hukum!"
   ELSE
     DISPLAY "muji"
+
+SIMPAN "siswa/siswi" dengan nilai 1
+
+SELAMA "siswa/siswi" kurang dari 40 MAKA
+  TAMPILKAN "siswa/siswi"
+  STORE " panjang kuku" dengan nilai 0
+  JIKA "panjang Kuku" lebih banyak dari 4 MAKA
+    TAMPILKAN "HUKUM!"
+  LAIN
+    TAMPILKAN "muji"

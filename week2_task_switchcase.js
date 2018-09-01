@@ -1,24 +1,19 @@
-Last login: Tue Aug 28 17:55:26 on ttys000
-rizkys-MacBook-Air:~ rizkyramdhan$ node
-> var tanggal = 4;
-undefined
-> var bulan = 3;
-undefined
-> var tahun = 1993;
-undefined
-> switch (bulan) {
-...   case 1: { console.log('4 januari 1993'); break; }
-...   case 2: { console.log('4 febuari 1993'); break; }
-...   case 3: { console.log('4 maret 1993'); break; }
-...   case 4: { console.log('4 april 1993'); break; }
-...   default: { console.log('tidak terdapat data'); break; }
-... }
-4 maret 1993
-undefined
-> 
+var tanggal = 4;
+var bulan = 3;
+var tahun = 1993;
+switch (bulan) {
+  case 1 : { console.log(tanggal + ' Januari ' + tahun); break; }
+  case 2 : { console.log(tanggal + ' Februari ' + tahun); break; }
+  case 3 : { console.log(tanggal + ' Maret ' + tahun); break; }
+  case 4 : { console.log(tanggal + ' April ' + tahun); break; }
+  case 5 : { console.log(tanggal + ' Mei ' + tahun); break; }
+  case 6 : { console.log(tanggal + ' Juni ' + tahun); break; }
+  case 7 : { console.log(tanggal + ' Juli ' + tahun); break; }
+  case 8 : { console.log(tanggal + ' Agustus ' + tahun); break; }
+  case 9 : { console.log(tanggal + ' September ' + tahun); break; }
+  case 10 : { console.log(tanggal + ' Oktober ' + tahun); break; }
+  case 11 : { console.log(tanggal + ' November ' + tahun); break; }
+  case 12 : { console.log(tanggal + ' Desember ' + tahun); break; }
+  default: { console.log(tanggal + 'ERROR'); break; }
 
-
-
-
-
-
+}
